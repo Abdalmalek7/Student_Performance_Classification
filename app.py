@@ -29,7 +29,7 @@ page = st.sidebar.radio(
 # ---------------------------------
 if page == "Project Overview":
 
-    st.title("🎓 Exam Score Prediction Project")
+    st.title("🎓 Student Performance Classification")
 
     image = Image.open("dom-fou-YRMWVcdyhmI-unsplash.jpg")
     st.image(image, use_container_width=True)
@@ -248,5 +248,6 @@ elif page == "Prediction":
 
         
         
+
 
 
